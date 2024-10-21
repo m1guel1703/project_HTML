@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Projeto HTML</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="image gallery">
+    <meta name="author" content="Sara Granja">
+    
+    <style>
+        ul a{text-decoration: none;}
+        h1{text-align: center;}
+        ul li{
+            font-size: 18px;
+        }
+        a{
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<h1>Módulo 1 - Primeiros passsos com <strong>HTML</strong></h1>
+<hr>
+
+<h2>índice</h2>
+<ul>
+    <li><a href="#Computer">Histórias dos computadores</a></li>
+    <li><a href="#client">o que são <i>clients</i>?</a></li>
+    <li><a href="#servers">O que são <i>servers</i>?</a></li>
+    <li><a href="#html">como é uma estrutura básica de um HTML?</a></li>
+    <li><a href="#rodape">Link de referências </a></li>
+</ul>
+<tbody class="t1">
+<h2 id="Computer">Histórias dos computadores:</h2>
+<h3>1. Início e Conceitos Fundamentais (Pré-1900)</h3>
+<ul>
+    <li><p>As primeiras máquinas de cálculo foram criadas para simplificar cálculos matemáticos.<br>
+        Exemplos notáveis incluem o Ábaco (500 a.C.) e a Máquina de Pascal (1642).</p></li>
+</ul>
+<h3>2. Máquinas Mecânicas e o Conceito de Computação</h3>
+<ul>
+    <li>Em 1837, Charles Babbage idealizou o Motor Analítico, uma máquina com conceitos fundamentais<br>
+         de um computador
+        moderno, como memória e unidade central de processamento (CPU).</li>
+    <li>Ada Lovelace desenvolveu o primeiro algoritmo a ser processado por essa máquina, sendo considerada a primeira
+        programadora.</li>
+</ul>
+<h3>3. Primeiros Computadores Eletrônicos (Décadas de 1940 e 1950)</h3>
+<ul>
+    <li>Durante a Segunda Guerra Mundial, computadores como o ENIAC (1946) foram desenvolvidos para cálculos militares e
+        científicos.<br> Eles usavam válvulas e eram gigantescos.</li>
+    <li>Alan Turing, com sua "Máquina de Turing", estabeleceu a base teórica da computação.</li>
+</ul>
+<h3>4. Evolução e Miniaturização (Anos 1960-1980)</h3>
+<ul>
+    <li>A invenção do transistor (1947) e, mais tarde, dos circuitos integrados (1960s), permitiu a construção de
+        computadores menores e mais potentes.</li>
+    <li>Nos anos 1970, o Apple II e o IBM PC introduziram os computadores pessoais ao mercado, mudando o uso de
+        computadores para o público geral.</li>
+</ul>
+<h3>5. Computadores Modernos e a Era da Internet (1990-presente)</h3>
+<ul>
+    <li>A partir dos anos 1990, com a popularização da Internet, os computadores se tornaram centrais para comunicação,
+        trabalho e lazer.</li>
+    <li>O desenvolvimento de microprocessadores avançados continua a impulsionar inovações tecnológicas<br> em áreas como
+        inteligência artificial e computação quântica.</li>
+</ul>
+</tbody>
+<tbody class="t2">
+<h2 id="client">O que são Clients?</h2>
+<h3>  1.  Solicitação de Serviços</h3>
+<ul>
+    <li>O cliente envia uma requisição ao servidor (por exemplo, uma página da web, um arquivo ou dados).</li>
+</ul>
+<h3>2.  Interface com o usúario</h3>
+<ul>
+    <li> Geralmente, é a parte que interage com o usuário final, como navegadores web, aplicativos móveis ou programas desktop.</li>
+</ul>
+<h3>3.  Dependência do Servidor</h3>
+<ul>
+    <li>Embora os clientes possam realizar algumas tarefas localmente, muitas vezes precisam de dados ou processamento que só o servidor pode fornecer.</li>
+</ul>
+</tbody>
+<tbody class="t3">
+<h2 id="servers">o que são servers</h2>
+<h3>1. Conceito Geral de Servidores</h3>
+<ul><li>
+    Um servidor é um sistema (físico ou virtual) que fornece serviços ou recursos a outros dispositivos chamados de clientes. Ele desempenha um papel fundamental no modelo cliente-servidor.
+</li></ul>
+<h3>2. Função dos Servidores</h3>
+<ul>
+    <li>Os servidores processam as solicitações enviadas pelos clientes e retornam os dados ou serviços solicitados. Eles podem fornecer desde armazenamento de dados, páginas da web, até processamento complexo de informações.</li>
+</ul>
+<h3>3. Tipos Comuns de Servidores</h3>
+<ul>
+    <li>Servidor Web: Responde a solicitações de navegadores e entrega páginas da web (ex.: Apache, Nginx).</li>
+    <li>Servidor de Arquivos: Armazena e distribui arquivos para clientes na rede.</li>
+    <li>Servidor de Banco de Dados: Armazena e gerencia grandes volumes de dados, acessados por aplicativos.</li>
+    <li>Servidor de Aplicação: Hospeda aplicações, lidando com a lógica de negócios e interações com os clientes.</li>
+</ul>
+<h3>4. Servidor Físico x Virtual</h3>
+<ul>
+    <li>Servidores físicos são máquinas dedicadas exclusivamente ao processamento de requisições.</li>
+    <li>Servidores virtuais utilizam a virtualização, permitindo que múltiplos servidores virtuais rodem em uma única máquina física.</li>
+</ul>
+</tbody>
+<tbody class="t4">
+<h2 id="html">estrutura básica de um documento HTML:</h2>
+<h3>1. Declaração do Tipo de Documento</h3>
+<ul>
+    <li><p>O documento HTML começa com <code>&lt;!DOCTYPE html&gt;</code>, que informa ao navegador que é um arquivo HTML5.</p></li>
+</ul>
+<h3>2.  Elemento (<code>&lt;HTML&gt;</code>)</h3>
+<ul>
+    <li>Contém todo o conteúdo do documento. É o elemento raiz da página.</li>
+</ul>
+<h3>3.  Cabeçalho (<code>&lt;HEAD&gt;</code>)</h3>
+<ul>
+    <li>O elemento (<code>&lt;HEAD&gt;</code>) contém informações meta (metadados) sobre o documento, como:</li>
+    <li>Título da página: Definido pela tag (<code>&lt;TITLE&gt;</code>), que aparece na aba do navegador.</li>
+    <li>Metadados: Definidos com tags (<code>&lt;META&gt;</code>), como charset <code>&lt;meta charset="UTF-8"&gt;</code>, descrições, palavras-chave.</li>
+    <li>Links externos: Para CSS, ícones ou fontes, geralmente definidos com (<code>&lt;LINK&gt;</code>).</li>
+</ul>
+<h3>4. Corpo (<code>&lt;BODY&gt;</code>)</h3>
+<ul>
+    <li>O elemento (<code>&lt;BODY&gt;</code>) contém todo o conteúdo visível da página, como:</li>
+    <li>Cabeçalhos: Definidos com tags como (<code>&lt;H1&gt;</code>), (<code>&lt;H2&gt;</code>), etc.</li>
+    <li>Parágrafos: Criados com a tag <code>&lt;p&gt;</code>.</li>
+    <li>Imagens: Incluídas com <code>&lt;img&gt;</code>.</li>
+    <li>Links: Criados com <code>&lt;a&gt;</code> para navegação entre páginas.
+    <li>Listas, tabelas, e formulários: Criados com <code>&lt;ul&gt;</code>, <code>&lt;table&gt;</code>, <code>&lt;form&gt;</code>, entre outros.</li>
+</ul>
+<h3>5. Fechamento do Documento</h3>
+<ul>
+    <li>O HTML é encerrado com <code>&lt;/html&gt;</code> para indicar o fim do documento.</li>
+</ul>
+</tbody>
+<tfoot>
+    <h3 id="rodape">referências:</h3>
+    <a href="https://pt.wikipedia.org/wiki/Computador" target="_blank" title="Entenda mais sobre...">História dos computadores</a> <br>
+    <a href="https://pt.wikipedia.org/wiki/Modelo_cliente%E2%80%93servidor" target="_blank" title="Entenda mais sobre...">Client</a> <br>
+    <a href="https://pt.wikipedia.org/wiki/Linguagem_server-side" target="_blank">Servers</a> <br>
+    <a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html" title="Entenda mais sobre..." target="_blank">Estrutura <strong>HTML</strong></a> <br>
+</tfoot>
+</body>
+
+
+
+</html>
